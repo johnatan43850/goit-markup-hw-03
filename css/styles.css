@@ -189,16 +189,16 @@ font-weight: 700;
         font-size: 14px;
         line-height: 1.71;
 }
-
+.footer-item{
+display: inline-block;
+    margin-bottom: 9px;
+}
 
 
 .contact-footer{
         font-size: 14px;
         line-height: 1.71;
      color: var(--web-info-color);
-     display: inline-block;
-   margin-bottom: 9px;
-  
 }
 
  .contact-footer:hover,
