@@ -63,8 +63,12 @@ body{
 
 
 /* nav */
+.main-nav{
+    display: flex;
+}
 
 .nav{
+        
         display: flex;    
 
         font-weight: 500;
@@ -81,6 +85,7 @@ body{
         color: var(--accent-text-color)
 }
 .link{
+    
         color: var(--pramary-text-color);
 
 }
@@ -88,10 +93,19 @@ body{
 .link:focus{
         color: var(--accent-text-color);
 }
-/*heder-contakt*/
+/*heder*/
+.contakt{
+    
+    display: flex;
+
+}
+.contakt-item:not(:last-child){
+    margin-right: 50px;
+}
+
 .heder-contact{
-        display: flex;
-       display: inline-block;
+    
+       
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
