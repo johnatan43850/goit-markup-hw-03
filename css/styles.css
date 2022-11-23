@@ -38,6 +38,10 @@ body{
 }
 
 /* logo */
+
+.logo-box{
+    display: flex;
+}
 .logo{
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
@@ -63,6 +67,9 @@ body{
 
 
 /* nav */
+.nav-box{
+    display: flex;
+}
 .main-nav{
     display: flex;
 }
@@ -94,6 +101,9 @@ body{
         color: var(--accent-text-color);
 }
 /*heder*/
+.contakt-box{
+    display: flex;
+}
 .contakt{
     
     display: flex;
