@@ -43,6 +43,7 @@ body{
     display: flex;
 }
 .logo{
+    margin-right: 93px;
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -67,22 +68,20 @@ body{
 
 
 /* nav */
-.nav-box{
-    display: flex;
-}
+
 .main-nav{
     display: flex;
 }
 
 .nav{
-        
+        margin-right: 344px;
         display: flex;    
 
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-}
+} 
 
 .nav .item:not(:last-child){
         margin-right: 50px;
@@ -101,11 +100,14 @@ body{
         color: var(--accent-text-color);
 }
 /*heder*/
-.contakt-box{
+.heder-box{
+    align-items: center;
     display: flex;
 }
+
 .contakt{
-    
+
+  
     display: flex;
 
 }
@@ -153,7 +155,39 @@ body{
     
 }
 
+.button {
+        display: inline-block;
+        min-width: 216px;
+        height: 50px;
+        border: 0px;
+        border-radius: 4px;
+        padding: 10px 32px;
+        text-align: center;
+        margin-bottom: 294px;
+
+        cursor: pointer;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+
+        color: var(--white-text-color);
+        background-color: var(--accent-text-color);
+    
+}
+
 /* section */
+
+.section-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.box{
+   margin-top: 94px;
+   margin-bottom: 94px;
+   display: flex;
+}
 
 
 .visually-hidden.visually-hidden {
@@ -186,6 +220,16 @@ body{
         color: var(--secondary-text-color);
 }
 /* work */
+
+.work-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.work-box{
+    margin-bottom: 94px;
+    display: flex;
+}
+
 .work-title{
         margin-bottom: 50px;
        
@@ -197,8 +241,15 @@ body{
        
 }
 /* team */
+
+.team-box{
+    margin-bottom: 94px;
+    display: flex;
+}
+
 .team-title{
         margin-bottom: 50px;
+        margin-top: 94px;
         
         font-weight: 700;
         font-size: 36px;
@@ -281,24 +332,7 @@ body{
         color: var(--accent-text-color);
     
 }
-.button{   
-        cursor: pointer;
-        font-family: inherit; 
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.06em;
-        color: var(--white-text-color);
-        background-color: var(--accent-text-color);
-        display: inline-block;
-        min-width: 216px;
-        height: 50px;
-        border: 0px;
-        border-radius: 4px;
-        padding: 10px 32px ;
-        text-align: center;
-        margin-bottom: 294px;
-}
+
 
 .button-secondary{
         margin: 0;
