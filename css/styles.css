@@ -71,7 +71,7 @@ body{
 
     margin-right: 0;
     margin-bottom: 20px;
-    padding-top: 60px;
+
 }
 
 .logo-blue{
@@ -341,11 +341,17 @@ margin-left: auto;
 /* footer */
 
 .footer {
+       
         font-size: 14px;
         line-height: 1.71;
 
         color: var(--white-text-color);
         background-color: var(--hero-background-color);
+}
+
+.footer-box{
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 
 .footer-items {
@@ -374,7 +380,6 @@ margin-left: auto;
  }
 
 .address{
-        padding-bottom: 60px;
         font-style: normal;
 }
 
